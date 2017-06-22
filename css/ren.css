@@ -1,0 +1,16 @@
+.container{  width: 1000px;  margin: 0 auto;
+      padding-bottom: 60px;}
+.title{  height: 53px;  border-bottom: 2px solid #39ac6a;   padding-top: 1px;
+    line-height: 53px;  color: #666666;  font-size: 12px;}
+.cnt{ width: 898px;
+    padding: 35px 50px 30px;  border: 1px solid #cccccc; border-top: none;  }
+.cnt .newstitle{ height: 100px; text-align: center;
+    border-bottom: 1px solid #cccccc;}
+.cnt .newstitle h1{  height: 68px;
+    line-height: 68px;  font-size: 24px;  color: #333333;}
+.cnt .newstitle p{   height: 32px;
+    line-height: 32px;    font-size: 14px;
+    color: #999999;}
+.cnt .newscnt{ padding-top: 41px;}
+.cnt .newscnt p{ text-indent: 2em; font-size: 15px;
+    line-height: 30px;  margin-bottom: 30px;}

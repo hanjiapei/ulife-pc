@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+ <form action="selectRen.php" method="get">
+   页码<input type="text" name="pagenum"/><br>
+   aid<input type="text" name="aid"/><br>
+   sid<input type="text" name="sid"/><br>
+   最小价格<input type="text" name="pricemin"/><br>
+   最大价格<input type="text" name="pricemax"/><br>
+   最小面积<input type="text" name="areamin"/><br>
+   最大面积<input type="text" name="areamax"/><br>
+   房源几室
+      <select  name="type">
+        <option value="">不限</option>
+        <option value="一室">一室</option>
+        <option value="二室">二室</option>
+        <option value="三室">三室</option>
+        <option value="四室">四室</option>
+        <option value="五室">五室</option>
+      </select>
+   <br>
+   房源整合
+     <select  name="mode">
+        <option value="">不限</option>
+        <option value="整">整租</option>
+        <option value="合">合租</option>
+      </select>
+   <br>
+  <input type="submit" value="提交"/>
+ </form>
+
+</body>
+</html>

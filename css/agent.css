@@ -1,0 +1,155 @@
+.container{  width: 1000px;  margin: 0 auto;
+      padding-bottom: 81px;}
+.title{  height: 53px;     padding-top: 1px;
+    line-height: 53px;  color: #666666;  font-size: 12px;}
+.title a{ color:#666;}
+.title a:link,.title a:visited,.title a:hover,.title a:active{ color: #666;}
+/*经纪人*/
+
+.lszx{ width: 1000px; height: 46px;    border-bottom: 2px solid #39ac6a;}
+.lszx .btn{  width: 116px;  height: 46px; line-height: 46px;  background-color: #39ac6a;  color: #ffffff; text-align: center;  font-size: 18px; }
+
+/*选择栏目*/
+.choice{
+    border: 1px solid #dddddd;  padding: 7px 35px 27px 30px;
+    margin-bottom: 25px;
+}
+.choice .area{ line-height: 27px;
+    font-size: 12px;
+    color: #333333;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+.choice .area span{
+    display: block;
+    float: left;
+    font-weight: 900;}
+.choice .area a{
+    display: block;
+    float: left;
+    color: #333333;
+    padding: 0 15px;}
+.choice .area a:link,.choice .area a:visited{
+    color: #333333;}
+.choice .area a.active{
+    color: #39ac6a; }
+.choice .subarea{
+    display: none;
+    border: 1px solid #dddddd;
+    margin-left: 53px; border-radius:3px ;
+    padding: 5px 15px 15px 7px;}
+.choice .subarea a{
+    line-height: 27px;
+    color: #333333;
+    padding-right: 16px;
+    font-size: 12px;}
+.choice .subarea a:link,.choice .subarea a:visited{
+    color: #333333;}
+.choice .subarea a.active{
+    font-weight: 900;
+    color: #39ac6a;}
+
+/*共计*/
+.total{
+    font-size: 12px;
+    color: #333333;
+    height: 50px;
+    border-top: 2px solid #39ac6a;
+
+    line-height: 50px;
+    padding-left: 16px; }
+.total span{
+    color: #e4393c;}
+
+.list{
+    margin-bottom: 40px;}
+.list li{
+    height: 170px;
+    border-bottom: 1px solid #ddd;
+   }
+.list li .pic{
+    float: left;
+    width: 184px;
+    text-align: center;
+    height: 170px;
+}
+.list li .pic img{
+    width: 120px;
+    height: 120px;
+    padding-top: 25px;}
+.list li .mid{
+    float: left;
+    width: 655px;
+    height: 170px;
+    }
+.list li .mid h1{
+    height: 34px;
+    line-height: 34px;
+    color: #333333;
+    padding-top: 27px;
+
+    font-size: 18px;}
+.list li .mid p{
+    height: 28px;
+    line-height: 28px;
+    color: #888888;
+
+    font-size: 14px;
+    margin-bottom: 13px;}
+.list li .mid .phone{
+    height: 36px;
+    background: url("../images/phone_03.png") no-repeat 0 0;
+    line-height: 36px;
+
+    color: #4285f4;
+    font-size: 24px;
+    width: 184px;
+    padding-left: 36px; }
+
+.list li .btn{
+    float: left;
+    width: 161px;
+    height: 170px;}
+.list li .btn a{
+    border-radius: 4px;
+    display: block;
+    height: 31px;
+    border: 1px solid #39ac6a;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 69px;
+    width: 118px;
+    color: #39ac6a;
+    font-size: 14px;}
+
+
+/*控制页码*/
+.ctrl{
+    text-align: center;
+    height: 30px;
+   }
+.ctrl span ,.ctrl a{ display: inline-block;
+    height: 28px; border:1px solid #ccc; line-height: 28px;
+    padding: 0 10px; color: #888;
+    font-size: 14px;
+    margin-right: 2px;}
+.ctrl a.active{ border:1px solid #39ac6a;
+    background-color: #39ac6a; color:#fff; }
+.ctrl span.disabled{
+    border: 1px solid #eee;
+    color: #ccc;}
+
+.cnt{ width: 898px;
+    padding: 35px 50px 30px;  border: 1px solid #cccccc; border-top: none;  }
+.cnt .newstitle{ height: 100px; text-align: center;
+    border-bottom: 1px solid #cccccc;}
+.cnt .newstitle h1{  height: 68px;
+    line-height: 68px;  font-size: 24px;  color: #333333;}
+.cnt .newstitle p{   height: 32px;
+    line-height: 32px;    font-size: 14px;
+    color: #999999;}
+.cnt .newscnt{ padding-top: 41px;}
+.cnt .newscnt p{ text-indent: 2em; font-size: 15px;
+    line-height: 30px;  margin-bottom: 30px;}

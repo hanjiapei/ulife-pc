@@ -1,0 +1,36 @@
+/*news的container*/
+.container{  width: 1000px;  margin: 0 auto; padding-bottom: 76px;  }
+.title{ height: 53px; padding-top: 1px;  line-height: 53px;  color: #666666;  font-size: 12px;  }
+.title a{ color:#666;}
+.banner{ height: 300px; margin-bottom: 30px;  }
+.banner img{  display: block;}
+.banner .left{  width: 720px;  height: 300px;  float: left;  }
+.banner .right{  width: 260px;  height: 300px;  float: right;  }
+.banner .right .first{  margin-bottom: 20px;}
+/*新闻列表栏目*/
+.newslist{ width: 100%; height: auto;  }
+.lszx{ width: 1000px; height: 46px;    border-bottom: 2px solid #39ac6a;}
+.lszx .btn{  width: 116px;  height: 46px; line-height: 46px;  background-color: #39ac6a;  color: #ffffff; text-align: center;  font-size: 18px; }
+/*列表部分*/
+ul.news{  background:url(../images/icon_19.png) no-repeat 52px 0;  padding-top: 5px;}
+ul.news  li{ height: 180px;  border-bottom: 1px solid #dddddd;}
+/*左侧文本部分*/
+ul.news .txt{ width: 750px; height: 180px; float: left; }
+ul.news .txt h2{line-height: 44px; padding-top: 18px;  height: 44px;}
+ul.news .txt h2 a{ font-size: 18px; color: #333333;}
+ul.news .txt .desc{ line-height: 24px;  font-size: 14px;
+    color: #666666;}
+ul.news .txt .date{ line-height: 66px;  font-size: 14px;
+    color: #999999;}
+/*右侧图片部分*/
+ul.news .pic{ padding-top: 20px; width: 180px;  height: 160px;  float: right;  }
+.more{
+    width: 100px; height: 30px;  margin: 0 auto; margin-top: 47px;  background-color: #39ac6a;
+    line-height: 30px; color: #ffffff; text-align: center;}
+
+.mei{width: 100px;
+    display: none; height: 30px;  margin: 0 auto; margin-top: 47px; line-height: 30px; color: #ccc; text-align: center; }
+
+
+
+

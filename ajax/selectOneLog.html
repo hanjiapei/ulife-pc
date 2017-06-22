@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script src="../js/jquery-1.11.3.js"></script>
+<script>
+(function(){
+	$(function(){
+		$(".btn").click(function(){
+			var p=$(".a").val();
+			var m=$(".b").val();
+			$.ajax({
+				url:"selectOneLogin.php",
+				data:{phone:p,pwd:m},
+				success:chuli
+				})
+			function chuli(d){
+				console.dir(d)
+				//d.data[0].phone 存储到本地 输出到页面
+	sessionStorage.setItem("id",d.data[0].id)
+	sessionStorage.setItem("phone",d.data[0].phone)
+	sessionStorage.setItem("nike",d.data[0].nike)
+				}
+			
+			});
+		})
+	})()
+
+
+</script>
+</head>
+<body>
+ <h1>页面跳转登录</h1>
+ <form action="selectOneLogin.php" method="get">
+   phone<input type="text" name="phone"/><br>
+   pwd<input type="text" name="pwd"/><br>
+  <input type="submit" value="提交"/>
+ </form>
+ 
+ <h1>页面跳转登录</h1>
+  phone<input type="text" class="a" name="phone"/><br>
+  pwd<input type="text" class="b" name="pwd"/><br>
+ <div class="btn">登录</div>
+ 
+<a href="../news.html">跳转</a>
+</body>
+</html>
